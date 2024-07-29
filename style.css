@@ -1,0 +1,226 @@
+body {
+    background-color: #3c3c3c;
+    
+
+}
+html {
+    scrollbar-color: black;
+  }
+  
+.header {
+    color:aquamarine;
+    text-align: center;
+
+}
+h1::selection {
+   color:white;
+   background-color: yellow;
+    
+}
+.discord {
+    text-decoration: none;
+    color:black;
+    background-color:rgb(104, 104, 219);
+    padding:10px;
+    margin:20px;
+    box-shadow:5px 1px 5px;
+    transition: 1s;
+    
+}
+.yt {
+    text-decoration: none;
+    color:black;
+    background-color:rgb(218, 130, 130);
+    padding:10px;
+    margin:20px;
+    box-shadow:5px 1px 5px;
+    transition: 1s;
+    
+}
+.discord:hover {
+    text-decoration: none;
+    color:black;
+    background-color:rgb(18, 18, 232);
+    padding:10px;
+    margin:20px;
+    box-shadow:10px 5px 10px; 
+    transition: 1s;
+    transform:scale(1.9);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.yt:hover {
+    text-decoration: none;
+    color:black;
+    background-color:rgb(222, 4, 4);
+    padding:10px;
+    margin:20px;
+    box-shadow:10px 5px 10px;
+    transition: 1s;
+    transform:scale(1.9);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.skins {
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+     padding:10px;
+    margin:100px;
+    transform:translateX(100px);
+    box-shadow:10px 10px 10px ;
+    width:16vw;
+    height:70vh;
+    clear: both;
+}
+.skindownload {
+    color:white;
+    text-decoration: none;
+    background-color: black;
+    border-radius:11px;
+    padding:15px;
+    margin:20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition:0.4s;
+    min-width:65%;
+    transition:0.9s;
+}
+.skindownload:hover {
+    color:white;
+    text-decoration: none;
+    transition:0.9s;
+    background: rgb(186,195,34);
+    background: linear-gradient(0deg, rgba(186,195,34,1) 0%, rgba(73,122,211,1) 0%, rgba(253,45,140,1) 100%);
+    border-radius:11px;
+    padding:15px;
+    margin:20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition:0.4s;
+}
+.skintotitem {
+    background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+       padding:10px;
+        margin:400px;
+        transform: translateY(-760px);
+       box-shadow:10px 10px 10px ;
+        max-width:600px;
+        width:16vw;
+        height:70vh;
+        clear: both;
+    
+    
+}
+.cards {
+    gap:10px;
+    min-width:65%
+}
+.mypack {
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+    padding:10px;
+    margin:600px;
+    transform: translateY(-1720px);
+    clear: both;
+   box-shadow:10px 10px 10px;
+    
+    width:16vw;
+    height:70vh;
+}
+.totemimg {
+    transform: translateX(-20px);
+}
+.texturepack {
+    transform: translateX(-60px);
+   text-align:center;
+   size:10px;
+   clear: both;
+}
+.fun{
+    transform: translateY(-2000px);
+    text-align:center;
+}
+@media (prefers-color-scheme:light) {
+    body {
+        background-color: white;
+        
+    }
+    h1 {
+        color:black;
+    }
+    p {
+        color:black;
+    }
+    .skindownload:hover {
+    color:white;
+    text-decoration: none;
+    background-color: gray;
+    border-radius:11px;
+    padding:15px;
+    margin:20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition:0.4s;
+}
+::-webkit-scrollbar{
+    width: 15px;
+    
+    }
+    ::-webkit-scrollbar-track{
+    background: #d1e5ff;
+    }
+    ::-webkit-scrollbar-thumb{
+    background: linear-gradient(#642bff, #ff22e6);
+    border-radius:20px;
+    }
+}
+@media screen and (max-width:600px) {
+    .skintotitem {
+       transform:translateX(-290px);
+        width:40vw;
+        height:50vh;
+        
+    }
+    .skins{
+        margin:0px;
+        width:40vw;
+        height:50vh;
+      }
+
+      .mypack {
+        transform:translateX(-500px);
+        width:40vw;
+        height:50vh;
+        width:40vw;
+       
+      }
+     .cards {
+       margin:0px;
+     }
+     .header {
+        margin:-10px;
+        padding:-10px;
+     }
+     .fun {
+        opacity:0%;
+     }
+     ::-webkit-scrollbar{
+        width: 15px;
+        
+        }
+        ::-webkit-scrollbar-track{
+        background: #d1e5ff;
+        }
+        ::-webkit-scrollbar-thumb{
+        background: linear-gradient(#642bff, #ff22e6);
+        border-radius:20px;
+        }
+}
+
+::-webkit-scrollbar{
+width: 15px;
+
+}
+::-webkit-scrollbar-track{
+background: black;
+}
+::-webkit-scrollbar-thumb{
+background: linear-gradient(rgb(14, 170, 243),rgb(12, 255, 25));
+border-radius:20px;
+}
+.abourus {
+    background-color: linear-gradient(red,rgb(255, 23, 251));
+}

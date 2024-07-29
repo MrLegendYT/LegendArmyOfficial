@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark And Light Mode</title>
+    <style>
+        @media (prefers-color-scheme:dark) {
+            body {
+                background-color:#3c3c3c;
+                background: rgb(58,140,180);
+background: linear-gradient(90deg, rgba(58,140,180,1) 0%, rgba(38,206,198,1) 62%, rgba(0,104,255,1) 100%, rgba(252,176,69,1) 100%);
+
+            }
+            .box {
+            background-color: #3c3c3c;
+            width:230px;
+            height:190px;
+            position: fixed;
+            display:grid;
+           top: 50%;
+           left: 50%;
+           transform: translate(-50%, -50%);
+           overflow:auto;
+           resize:both;
+           
+          
+        }
+        }
+        .box {
+            background-color: white;
+            width:230px;
+            height:190px;
+            position: fixed;
+            display:grid;
+           top: 50%;
+           left: 50%;
+           transform: translate(-50%, -50%);
+           overflow:auto;
+           resize:both;
+           box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+          
+        }
+    body {
+        display:grid;
+    }
+    h1 {
+        background: linear-gradient(90deg, rgba(180,58,171,1) 0%, rgba(206,38,38,1) 33%, rgba(0,104,255,1) 100%, rgba(252,176,69,1) 100%);
+        
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h1> You Can Resize Me</h1>
+            <p>By Holding On The Corner Of The Box And Straching That You Can Resize Me</p>
+        </div>
+    </div>
+</body>
+</html>
